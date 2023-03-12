@@ -1,0 +1,6 @@
+- [x] create (project) package (npm init -y)
+- [x] install express, mongoose, ejs (npm i express mongoose ejs)
+- [x] install dev dependencies
+- [x] create our index.js
+- [x] project setup ('connected to server')
+- [ ]
