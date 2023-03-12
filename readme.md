@@ -8,4 +8,5 @@
 - [x] create our index.ejs view
 - [x] create routes
 - [x] output text to the screen (test)
-- [ ] 
+- [x] install bootstrap (link href in ejs)
+- [ ] create articles body
