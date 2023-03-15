@@ -1,6 +1,14 @@
 const express = require('express')
+const mongoose = require('mongoose')
+
 const articleRouter = require('./routes/articleRoute')
 const app = express()
+
+mongoose.connect('mongodb://localhost/blog', { 
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
+// useNewUrlParser & useUnifiedTopology --> not obligatory, only if Warning
 
 app.set('view engine', 'ejs')
 

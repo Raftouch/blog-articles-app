@@ -9,5 +9,6 @@
 - [x] create routes
 - [x] output text to the screen (test)
 - [x] install bootstrap (add link href in ejs)
-- [x] create article template
-- [ ] connect to db
+- [x] create article form fields
+- [x] connect to db (mongoose)
+- [ ] create a model
