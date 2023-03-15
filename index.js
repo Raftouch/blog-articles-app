@@ -19,7 +19,7 @@ app.get('/', (req,res) => {
             description: 'This article is even more interesting'
         }
     ]
-    res.render('index', {articles: articles})
+    res.render('articles/index', {articles: articles})
 })
 
 app.listen(5000, () => console.log('App is listening on port 5000'))
