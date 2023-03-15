@@ -9,17 +9,17 @@ app.use('/articles', articleRouter)
 app.get('/', (req,res) => {
     const articles = [
         {
-            title: 'Test article',
-            createdAt: Date.now(),
-            description: 'Test description'
+            title: 'My first article',
+            createdAt: new Date(),
+            description: 'This is a very interesting article'
         },
         {
-            title: 'Test article 2',
-            createdAt: Date.now(),
-            description: 'Test description 2'
+            title: 'My second article',
+            createdAt: new Date(),
+            description: 'This article is even more interesting'
         }
     ]
     res.render('index', {articles: articles})
 })
 
-app.listen(5000, () => console.log('Connected to server'))
+app.listen(5000, () => console.log('App is listening on port 5000'))

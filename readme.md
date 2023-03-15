@@ -9,4 +9,5 @@
 - [x] create routes
 - [x] output text to the screen (test)
 - [x] install bootstrap (link href in ejs)
-- [ ] create articles body
+- [x] create articles body
+- [ ] add articles
