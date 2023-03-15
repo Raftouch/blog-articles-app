@@ -11,4 +11,5 @@
 - [x] install bootstrap (add link href in ejs)
 - [x] create article form fields
 - [x] connect to db (mongoose)
-- [ ] create a model
+- [x] create a model
+- [ ] add articles
