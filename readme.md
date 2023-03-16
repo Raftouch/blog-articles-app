@@ -12,4 +12,6 @@
 - [x] create article form fields
 - [x] connect to db (mongoose)
 - [x] create a model
-- [ ] add articles
+- [x] add articles (router.post)
+- [x] access articles (router.get)
+- [ ] create our show.ejs page
