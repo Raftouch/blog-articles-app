@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost/blog', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-// useNewUrlParser & useUnifiedTopology --> not obligatory, only if Warning
+// useNewUrlParser & useUnifiedTopology & useCreateIndex: true --> not obligatory, only if Warning
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))

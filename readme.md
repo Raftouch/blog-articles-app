@@ -16,3 +16,5 @@
 - [x] access one article (router.get by id)
 - [x] create our show.ejs page
 - [x] access all articles (router.get all)
+- [x] install slugify (npm i marked slugify)
+- [ ] slugify all titles
