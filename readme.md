@@ -13,5 +13,6 @@
 - [x] connect to db (mongoose)
 - [x] create a model
 - [x] add articles (router.post)
-- [x] access articles (router.get)
-- [ ] create our show.ejs page
+- [x] access one article (router.get by id)
+- [x] create our show.ejs page
+- [x] access all articles (router.get all)
