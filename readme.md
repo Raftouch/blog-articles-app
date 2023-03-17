@@ -19,4 +19,5 @@
 - [x] install slugify (npm i marked slugify)
 - [x] slugify all titles
 - [x] install override method for form deletion (npm i method-override)
-- [ ] delete articles (router.delete with _method)
+- [x] apply delete method in index.ejs
+- [x] delete articles without slugified titles (router.delete with _method)
