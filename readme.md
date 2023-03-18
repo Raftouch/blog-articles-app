@@ -21,3 +21,5 @@
 - [x] install override method for form deletion (npm i method-override)
 - [x] apply delete method in index.ejs
 - [x] delete articles without slugified titles (router.delete with _method)
+- [x] sanitize html
+- [ ] add edit function
