@@ -25,3 +25,4 @@
 - [x] create middleware
 - [x] update create method (router.post)
 - [ ] add edit method (router.put)
+- [ ] add edit router in index.ejs
