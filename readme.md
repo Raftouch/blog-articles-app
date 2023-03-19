@@ -24,5 +24,5 @@
 - [x] sanitize html
 - [x] create middleware
 - [x] update create method (router.post)
-- [ ] add edit method (router.put)
-- [ ] add edit route in index.ejs
+- [x] add edit method (router.put)
+- [x] add edit route in index.ejs
