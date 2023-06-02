@@ -1,12 +1,16 @@
+if (process.env.NODE_ENV !== "production") {
+    require("dotenv").config();
+}
+
 const express = require('express')
 const mongoose = require('mongoose')
 const Article = require('./models/article')
 const articleRouter = require('./routes/articleRoute')
 const methodOverride = require('method-override')
 const app = express()
-const port = 5000
+const port = process.env.PORT
 
-mongoose.connect('mongodb://localhost/blog', { 
+mongoose.connect(process.env.MONGO_URL, { 
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
